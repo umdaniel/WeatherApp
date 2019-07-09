@@ -1,0 +1,31 @@
+.fa-city {
+    background-color: aliceblue;
+    color: grey;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.fa-thermometer-empty {
+    background-color: aliceblue;
+    color: red;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.fa-tint {
+    background-color: aliceblue;
+    color: cyan;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.fa-newspaper {
+    background-color: aliceblue;
+    color: black;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 30px;
+}
