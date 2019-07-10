@@ -3,9 +3,6 @@ import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-
 const API_KEY = "ebe7d1774f37da41f1014c2b9085e41d";
 
 class App extends React.Component {
@@ -65,15 +62,14 @@ class App extends React.Component {
               <div className= "row">
               <Form getWeather= {this.getWeather}/>
               <Weather 
-              temperature= {this.state.temperature}
               city= {this.state.city}
               country= {this.state.country}
+              temperature= {this.state.temperature}
               humidity= {this.state.humidity}
               description= {this.state.description}
               error= {this.state.error}
               >
-              <FontAwesomeIcon icon= {faCoffee}/>
-                </Weather>
+              </Weather>
               </div>
             </div>
           </div>
